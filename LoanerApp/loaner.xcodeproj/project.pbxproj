@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		448856882239D544001EDDC4 /* Loanee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448856872239D544001EDDC4 /* Loanee.swift */; };
+		71934E5625FD052C008B890D /* LoanedItems.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 71934E5425FD052C008B890D /* LoanedItems.xcdatamodeld */; };
 		E929E9692124EB7E0018488C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E929E9682124EB7E0018488C /* AppDelegate.swift */; };
 		E929E96B2124EB7E0018488C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E929E96A2124EB7E0018488C /* ViewController.swift */; };
 		E929E96E2124EB7E0018488C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E929E96C2124EB7E0018488C /* Main.storyboard */; };
@@ -24,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		448856872239D544001EDDC4 /* Loanee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Loanee.swift; sourceTree = "<group>"; };
+		71934E5525FD052C008B890D /* LoanedItems.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LoanedItems.xcdatamodel; sourceTree = "<group>"; };
 		E929E9652124EB7E0018488C /* loaner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = loaner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E929E9682124EB7E0018488C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E929E96A2124EB7E0018488C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			children = (
 				E9BA28F221274FED004FA7D3 /* Item.swift */,
 				448856872239D544001EDDC4 /* Loanee.swift */,
+				71934E5425FD052C008B890D /* LoanedItems.xcdatamodeld */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -191,6 +194,7 @@
 				E9BA28F521275B1A004FA7D3 /* ItemDetailedViewController.swift in Sources */,
 				E9D24DF3212794E30045C5D8 /* ItemContactInfoViewController.swift in Sources */,
 				E9D24DEF212789B90045C5D8 /* UIImage+ImagePickerController.swift in Sources */,
+				71934E5625FD052C008B890D /* LoanedItems.xcdatamodeld in Sources */,
 				E929E9692124EB7E0018488C /* AppDelegate.swift in Sources */,
 				E969554E21277C3100457E12 /* ItemEditorViewController.swift in Sources */,
 				448856882239D544001EDDC4 /* Loanee.swift in Sources */,
@@ -391,6 +395,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		71934E5425FD052C008B890D /* LoanedItems.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				71934E5525FD052C008B890D /* LoanedItems.xcdatamodel */,
+			);
+			currentVersion = 71934E5525FD052C008B890D /* LoanedItems.xcdatamodel */;
+			path = LoanedItems.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E929E95D2124EB7E0018488C /* Project object */;
 }
